@@ -14,11 +14,8 @@ def nyc_pigeon_organizer(data)
         end
 
           new_hash[pigeon][key] << descriptor.to_s
-
-
       end
     end
   end
-
   new_hash
 end
